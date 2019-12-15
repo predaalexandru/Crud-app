@@ -1,4 +1,5 @@
 import * as firebase from 'firebase';
+// eslint-disable-next-line
 import firestore from 'firebase/firestore'
 
 const settings = {timestampsInSnapshots: true};
