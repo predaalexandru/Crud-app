@@ -2,7 +2,7 @@ import * as firebase from 'firebase';
 // eslint-disable-next-line
 import firestore from 'firebase/firestore'
 
-const settings = {timestampsInSnapshots: true};
+const settings = {};
 
 const config = {
   apiKey: "AIzaSyDxSTrEd6SU2vH1LB9UWIdZm-FdYNAQk9c",

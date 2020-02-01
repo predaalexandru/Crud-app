@@ -37,16 +37,16 @@ class App extends Component {
 
   render() {
     return (
-      <div class="container">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">
+      <div className="container">
+        <div className="panel panel-default">
+          <div className="panel-heading">
+            <h3 className="panel-title">
               Company List
             </h3>
           </div>
-          <div class="panel-body">
+          <div className="panel-body">
             <h4><Link to="/create">Add Company</Link></h4>
-            <table class="table table-stripe">
+            <table className="table table-stripe">
               <thead>
                 <tr>
                   <th>Company Name</th>
