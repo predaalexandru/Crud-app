@@ -67,33 +67,33 @@ class Edit extends Component {
 
   render() {
     return (
-      <div class="container">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">
+      <div className="container">
+        <div className="panel panel-default">
+          <div className="panel-heading">
+            <h3 className="panel-title">
              Edit Company
             </h3>
           </div>
-          <div class="panel-body">
-            <h4><Link to={`/show/${this.state.key}`} class="btn btn-primary">Board List</Link></h4>
+          <div className="panel-body">
+            <h4><Link to={`/show/${this.state.key}`} className="btn btn-primary">Board List</Link></h4>
             <form onSubmit={this.onSubmit}>
-              <div class="form-group">
-                <label for="title">Company Name:</label>
-                <input type="text" class="form-control" name="company_name" value={this.state.company_name} onChange={this.onChange} placeholder="Enter Company Name" />
+              <div className="form-group">
+                <label htmlFor="title">Company Name:</label>
+                <input type="text" className="form-control" name="company_name" value={this.state.company_name} onChange={this.onChange} placeholder="Enter Company Name" />
               </div>
-              <div class="form-group">
-                <label for="description">Address:</label>
-                <input type="text" class="form-control" name="address" value={this.state.address} onChange={this.onChange} placeholder="Address" />
+              <div className="form-group">
+                <label htmlFor="description">Address:</label>
+                <input type="text" className="form-control" name="address" value={this.state.address} onChange={this.onChange} placeholder="Address" />
               </div>
-              <div class="form-group">
-                <label for="author">Email:</label>
-                <input type="text" class="form-control" name="email" value={this.state.email} onChange={this.onChange} placeholder="Enter the email" />
+              <div className="form-group">
+                <label htmlFor="author">Email:</label>
+                <input type="text" className="form-control" name="email" value={this.state.email} onChange={this.onChange} placeholder="Enter the email" />
               </div>
-              <div class="form-group">
-                <label for="author">Number:</label>
-                <input type="text" class="form-control" name="number" value={this.state.number} onChange={this.onChange} placeholder="Enter telephone number" />
+              <div className="form-group">
+                <label htmlFor="author">Number:</label>
+                <input type="text" className="form-control" name="number" value={this.state.number} onChange={this.onChange} placeholder="Enter telephone number" />
               </div>
-              <button type="submit" class="btn btn-success">Submit</button>
+              <button type="submit" className="btn btn-success">Submit</button>
             </form>
           </div>
         </div>
